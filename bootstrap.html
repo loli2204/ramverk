@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+            <a class="navbar-brand" href="index.html">Startsida</a>
+            <a class="navbar-brand" href="bootstrap.html">Bootstrap</a>
+            <a class="navbar-brand" href="bulma.html">Bulma</a>
+            <a class="navbar-brand" href="pub.html">Publicering</a>
+        </nav>
+    </header>
+
+    <!-- Content Section -->
+    <div class="container mt-5">
+        <h1>Om Bootstrap</h1>
+        <p>
+            Bootstrap är ett populärt front-end ramverk som används för att skapa responsiva och snygga webbsidor och webbapplikationer.
+        </p>
+        <p>
+            För mer information om Bootstrap, besök <a href="https://getbootstrap.com" target="_blank">Bootstrap webbplats</a>.
+        </p>
+        <p>
+          Jag tyckte att bootstrap var mycket enkelt att installera då jag använde tillägget i vscode.
+          Det var lätt att snabbt styla sidorna så de såg bra och proffessionell ut. Jag tycker det är mycket bra 
+          att det är ett responsivt system som anpassar sidan efter olika skärmstorlekar. Det finns möjlighet att ändra 
+          och anpassa utseendet efter önskemål. Det finns många färdiga mallar att använda sig av. Nackdelarna med bootstrap 
+          att det lätt kan skapas många sidor som är väldigt lika varandra.
+        </p>
+    </div>
+    <div class="container">
+    <!-- Tabell med data -->
+    <table class="table table-striped">
+      <h2>Tabell med data</h2>
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Namn</th>
+                <th scope="col">Ålder</th>
+                <th scope="col">Hundras</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Rosa</td>
+                <td>2</td>
+                <td>Labrador</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Coco</td>
+                <td>1</td>
+                <td>Cocker spaniel</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Rut</td>
+                <td>5</td>
+                <td>Tax</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Aston</td>
+                <td>1</td>
+                <td>Cockerpoo</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Athéna</td>
+                <td>7</td>
+                <td>Chihuahua</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Formulär för att lägga till data -->
+
+        <form>
+          <h2>Formulär för att lägga till data</h2>
+            <div class="form-group">
+                <label for="name">Namn</label>
+                <input type="text" class="form-control" id="name" placeholder="Ange namn">
+            </div>
+            <div class="form-group">
+                <label for="age">Ålder</label>
+                <input type="number" class="form-control" id="age" placeholder="Ange ålder">
+            </div>
+            <div class="form-group">
+                <label for="breed">Hundras</label>
+                <input type="text" class="form-control" id="city" placeholder="Ange hundras">
+            </div>
+            <button type="submit" class="btn btn-primary">Lägg till</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>CSS-ramverk -  Av: Louise Lindberg</p>
+    </footer>
+</body>
+</html>

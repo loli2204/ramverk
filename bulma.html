@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bulma</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">Startsida</a>
+            <a class="navbar-item" href="bootstrap.html">Bootstrap</a>
+            <a class="navbar-item" href="bulma.html">Bulma</a>
+            <a class="navbar-item" href="pub.html">Publicering</a>
+          </div>
+    </nav>
+
+    <!-- Content Section -->
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Om Bulma</h1>
+        <p>
+          Bulma är ett modernt, lättanvänt CSS-ramverk som hjälper dig att skapa snygga och responsiva webbsidor och webbapplikationer.
+        </p>
+        <p>
+          För mer information om Bulma, besök <a href="https://bulma.io" target="_blank">Bulma webbplats</a>.
+        </p>
+        <p>
+          Jag tycker att även bulma var väldigt lätt att installera och använda. Stilen är minimalistisk 
+          och modern. De skapar responsiv design vilket är mycket bra och smidigt. Det är likt bootstrap men 
+          jag uppfattar de ännu mer lättanvänt. Nackdelarna med bulma är att de har färre mallar än andra 
+          ramverk har och har även mindre flexibilitet vilket gör att även dessa sidor kan kännas igen och bli lika 
+          varandra.
+        </p>
+      </div>
+    </section>
+
+ <!-- Table with data -->
+    <div class="container">
+      <h1 class="title">Tabell med data</h1>
+      <table class="table is-bordered is-striped is-hoverable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Namn</th>
+            <th>Ålder</th>
+            <th>Hundras</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Rosa</td>
+            <td>2</td>
+            <td>Labrador</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Coco</td>
+            <td>1</td>
+            <td>Cocker spaniel</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Rut</td>
+            <td>5</td>
+            <td>Tax</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Aston</td>
+            <td>1</td>
+            <td>Cockerpoo</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Athéna</td>
+            <td>7</td>
+            <td>Chihuahua</td>
+          </tr>
+          <!-- Lägg till fler rader här -->
+        </tbody>
+      </table>
+    </div>
+  
+    <!-- Form to add data -->
+      <div class="container">
+        <h1 class="title">Formulär för att lägga till data</h1>
+        <form>
+          <div class="field">
+            <label class="label" for="name">Namn</label>
+            <div class="control">
+              <input class="input" type="text" id="name" placeholder="Ange namn">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="age">Ålder</label>
+            <div class="control">
+              <input class="input" type="number" id="age" placeholder="Ange ålder">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="breed">Hundras</label>
+            <div class="control">
+              <input class="input" type="text" id="breed" placeholder="Ange hundras">
+            </div>
+          </div>
+          <div class="field">
+            <div class="control">
+              <button class="button is-primary" type="submit">Lägg till</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>CSS-ramverk - Av: Louise Lindberg</p>
+      </div>
+    </footer>
+  </body>
+</html>
